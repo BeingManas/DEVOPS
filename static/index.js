@@ -21,9 +21,9 @@
 
 const display = document.getElementById("display");
 
-if (!display) {
-    console.error("Display element not found");
-}
+// if (!display) {
+//     console.error("Display element not found");
+// }
 
 function appendToDisplay(input) {
     display.value += input;
@@ -41,7 +41,6 @@ function calculate() {
     }
 }
 
-// Add event listener for keyboard inputs
 document.addEventListener('keydown', function(event) {
     const key = event.key;
 
